@@ -1,0 +1,74 @@
+---
+title: "Signal detection theory cannot distinguish perception biases from response biases"
+author: "N."
+date: "4/22/2020"
+output: 
+  ioslides_presentation:
+    widescreen: true
+    incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+# Packages
+if (!require('pacman', quietly = TRUE)) install.packages('pacman'); library('pacman', quietly = TRUE)
+p_load(knitr)
+```
+
+
+<!-- ## An extremely short into to Signal detection theory (SDT) {.build} -->
+## An extremely short into to Signal detection theory (SDT)
+
+  - SDT provides separate measures of sensitivity and bias bias (Green & Swets, 1966).
+  - _d'_ is a measure of sensitivity or discriminability
+  - criterion, often stated as _c_, is a measure of bias
+
+<br/><br/>
+
+```{r, fig.align='center'}
+include_graphics('media/noise-signal-plot.png')
+```
+
+
+## Stream/bounce effect
+
+Without sound
+
+<video width="80%" height="80%">
+<source src="media/Motion-illusion-1v-YouTube.mp4" type="video/mp4">
+</video>
+
+## Stream/bounce effect
+
+With sound
+
+<video width="80%" height="80%">
+<source src="media/Motion-illusion-2v-YouTube.mp4" type="video/mp4">
+</video>
+
+## Stream/bounce effect: perceptual of decisional process? 
+
+
+Two objects moving towards each other are more likely to be perceived as bouncing than as streaming if a sound is presented at the moment the objects meet (Sekuler, Sekuler, & Lau, 1997). 
+
+In Grove, Ashton, ... (2012) the effect was deemed to be result of a decisional processes because an effect was observed in _c_ rather than _d'_.
+
+
+## Signal detection theory (SDT)
+
+  - SDT provides separate measures of sensitivity and bias bias (Green & Swets, 1966).
+  - Sensitivity can be:
+      - perceptual sensitivity
+      - memory sensitivity
+      - etc.
+  - Bias can be:
+      - perceptual bias
+      - memory bias
+      - response bias
+      - etc.
+  
+  
+  
